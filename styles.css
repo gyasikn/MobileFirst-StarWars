@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header ul li {
+  list-style-type: none;
+  display: block;
+}
+
+header ul li a {
+  background-color: lightslategray;
+  color: snow;
+  padding: 0.5em;
+  display: block;
+  text-decoration: none;
+  border: 2px solid darkslategray;
+}
+
+header ul li.active a,
+header ul li a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+header ul li.active a {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+header ul li.active a::before {
+  content: " >";
+}
+
+header ul li.active a::after {
+  content: "< ";
+}
+
+main {
+  padding: 1rem;
+}
+
+main h1, main h2 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+main > section > section {
+  width: 100%;
+  text-align: center;
+  background-color: beige;
+  border: 2px solid dimgray;
+  margin-bottom: 1rem;
+}
+
+main > section > section > img {
+  display: inline-block;
+  width: 60%;
+  padding: 1rem;
+  border: 2px dashed lightgray
+}
+
+footer {
+  padding: 0.5rem;
+  background-color: black;
+  color: darkred;
+}
+
+body {
+  background-color: salmon;
+}
+
+/*  MEDIUM SCREEN SIZE STYLES */
+
+@media only screen and (min-width: 768px) {
+header h1, main h1 {
+    text-align: left;
+  }
+
+header {
+    padding: 2rem 10%;
+    overflow: auto;
+  }
+
+header h1 {
+    float: left;
+    margin-right: 10%;
+  }
+
+header ul {
+  overflow: auto;
+  border-radius: 2rem;
+}
+
+header ul li {
+  float: left;
+  width: 25%;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+
+main >section {
+    overflow: auto;
+  }
+
+main > section > section {
+    width: 48%;
+    float: left;
+  }
+
+main > section > section:nth-child(odd) {
+  margin-right: 4%;
+  }
+
+footer {
+  padding: 1rem 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
