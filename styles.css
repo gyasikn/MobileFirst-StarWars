@@ -16,6 +16,7 @@ header {
   background-color: black;
   color: #ffd700;
   text-align: center;
+  letter-spacing: 0.1em;
 }
 
 header ul {
@@ -30,18 +31,22 @@ header ul li {
 }
 
 header ul li a {
-  background-color: #777;
+  background-color: black;
   color: #ffd700;
   padding: 0.5em;
   display: block;
   text-decoration: none;
-  border: 2px solid darkslategray;
+  border: 2px solid #ffd700;
+  letter-spacing: 0.1em;
 }
 
 header ul li.active a,
 header ul li a:hover {
-  background-color: lightgray;
-  color: #ffd700;
+  background-color: #ffd700;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
 }
 
 header ul li.active a {
@@ -62,6 +67,10 @@ main {
   padding: 1rem;
 }
 
+main h1 {
+  letter-spacing: 0.1em;
+}
+
 main h1, main h2 {
   margin: 1rem 0;
   text-align: center;
@@ -72,8 +81,10 @@ main > section > section {
   text-align: center;
   background-color: black;
   border: 2px solid #ffd700;
+  border-radius: 10px;
   margin-bottom: 1rem;
   color: #ffd700;
+  letter-spacing: 0.1em;
 }
 
 main > section > section > img {
@@ -87,6 +98,7 @@ footer {
   padding: 0.5rem;
   background-color: black;
   color: #ffd700;
+  letter-spacing: 0.1em;
 }
 
 body {
@@ -112,7 +124,7 @@ header h1 {
 
 header ul {
   overflow: auto;
-  border-radius: 2rem;
+  border-radius: 5px;
 }
 
 header ul li {
