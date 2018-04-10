@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background-color: black;
-  color: white;
+  color: #ffd700;
   text-align: center;
 }
 
@@ -30,8 +30,8 @@ header ul li {
 }
 
 header ul li a {
-  background-color: lightslategray;
-  color: snow;
+  background-color: #777;
+  color: #ffd700;
   padding: 0.5em;
   display: block;
   text-decoration: none;
@@ -41,7 +41,7 @@ header ul li a {
 header ul li.active a,
 header ul li a:hover {
   background-color: lightgray;
-  color: black;
+  color: #ffd700;
 }
 
 header ul li.active a {
@@ -70,26 +70,27 @@ main h1, main h2 {
 main > section > section {
   width: 100%;
   text-align: center;
-  background-color: beige;
-  border: 2px solid dimgray;
+  background-color: black;
+  border: 2px solid #ffd700;
   margin-bottom: 1rem;
+  color: #ffd700;
 }
 
 main > section > section > img {
   display: inline-block;
   width: 60%;
   padding: 1rem;
-  border: 2px dashed lightgray
+  border: 2px dashed #ffd700;
 }
 
 footer {
   padding: 0.5rem;
   background-color: black;
-  color: darkred;
+  color: #ffd700;
 }
 
 body {
-  background-color: salmon;
+  background-color: #ffd700;
 }
 
 /*  MEDIUM SCREEN SIZE STYLES */
