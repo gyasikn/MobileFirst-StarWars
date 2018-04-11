@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Star Wars Films</title>
+    <title>Star Wars</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
@@ -14,78 +14,40 @@
         <ul>
           <li><a href="./index.html">Home</a></li>
           <!-- <li class="active"><a href="#">Episodes</a></li> -->
-          <li><a href="./index.html">Episodes</a></li>
+          <li><a href="./episodes.html">Episodes</a></li>
           <li><a href="./anthologies.html">Anthologies</a></li>
           <li><a href="./games.html">Games</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Episodes</h1>
-
+      <h1>Star Wars</h1>
       <section>
         <section>
-          <h2>The Phantom Menace</h2>
-          <img alt="The Phantom Menace" src="covers/ep1.jpg" />
-          <p>1999</p>
+          <h2>Episodes</h2>
+          <img src="covers/rey.jpg" alt="Rey">
+          <br>
+          <a href="./episodes.html"><button>Test</button></a>
         </section>
         <section>
-          <h2>Attack of the Clones</h2>
-          <img alt="Attack of the Clones" src="covers/ep2.jpg" />
-          <p>2002</p>
+          <h2>Anthology</h2>
+          <img src="covers/dv.jpg" alt="Rey">
+          <br>
+          <a href="./anthologies.html"><button>Test</button></a>
         </section>
-        <section>
-          <h2>Revenge of the Sith</h2>
-          <img alt="Revenge of the Sith" src="covers/ep3.jpg" />
-          <p>2005</p>
-        </section>
-        <section>
-          <h2>A New Hope</h2>
-          <img alt="A New Hope" src="covers/ep4.jpg" />
-          <p>1977</p>
-        </section>
-        <section>
-          <h2>The Empire Strikes Back</h2>
-          <img alt="Empire Strikes Back" src="covers/ep5.jpg" />
-          <p>1980</p>
-        </section>
-        <section>
-          <h2>Return of the Jedi</h2>
-          <img alt="Return of the Jedi" src="covers/ep6.jpg" />
-          <p>1983</p>
-        </section>
-        <section>
-          <h2>The Force Awakens</h2>
-          <img alt="The Force Awakens" src="covers/ep7.jpg" />
-          <p>2015</p>
-        </section>
-        <section>
-          <h2>The Last Jedi</h2>
-          <img alt="The Last Jedi" src="covers/ep8.jpg" />
-          <p>2017</p>
+        <section class="yoda">
+          <h2>Games</h2>
+          <img src="covers/yoda.jpg" alt="Rey">
+          <br>
+          <a href="./games.html"><button>Test</button></a>
         </section>
       </section>
+  
     </main>
+
     <footer>
       <span>Created In A Galaxy Far Far Away...</span>
       <p>Copyright &copy; 2018 Gyasik Nunez</p>
     </footer>
-
-
-
-    <!-- <script>
-      // Add active class to the current button (highlight it)
-      var header = document.getElementById("myDIV");
-      var btns = header.getElementsByClassName("btn");
-      for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function () {
-          var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-        });
-      }
-    </script> -->
-
-
   </body>
 </html>
