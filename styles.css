@@ -156,3 +156,28 @@ footer {
   }
 }
 
+/* home page */
+
+button {
+  cursor: pointer;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  background-color: #ffd700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: transparent;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 1px solid #ffd700;
+  background-color: black;
+  color: #ffd700;
+}
+
