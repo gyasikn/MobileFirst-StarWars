@@ -94,6 +94,10 @@ main > section > section > img {
   border: 2px dashed #ffd700;
 }
 
+.ant-sec {
+  margin-bottom: 2rem;
+}
+
 footer {
   padding: 0.5rem;
   background-color: black;

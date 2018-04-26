@@ -1,3 +1,6 @@
-Website example with Mobile First design in mind.
+Static website example with Mobile First / Responsive design in mind.
 
-Built with vanilla CSS & HTML only.
+Built with Vanilla CSS & HTML only.
+
+
+*All images are not mine and were taken from google to use for content purposes.*
